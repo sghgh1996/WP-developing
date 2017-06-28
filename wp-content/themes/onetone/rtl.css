@@ -1,0 +1,174 @@
+﻿/*
+Theme Name: Onetone
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+@font-face {
+    font-family: 'WYekan';
+    src: url('fonts/WeWYekan.eot');
+    src: url('fonts/WebYekan.eot?#iefix') format('embedded-opentype'),
+         url('fonts/WebYekan.woff') format('woff'),
+         url('fonts/WebYekan.ttf') format('truetype'),
+         url('fonts/WebYekan.svg#WebYekan') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0600â€“06FF;
+}
+h1 { font-family:WYekan;}
+body, h1, h2, h3, h4, h5, h6, p, span { font-family:WYekan !important;}
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.home-navigation {
+	float:left
+}.home-logo {
+	float:right;
+	margin-top: 10px;
+margin-right: 20px;}
+.home-container {
+	direction:rtl}
+
+.two_third {
+	float:right;}
+	
+	.section-about h3 {
+		text-align:right};
+		.last {
+			clear:none}
+
+.section-about li {
+	text-align:center;
+	float: right;
+	padding: 0px 30px;}
+
+
+.info-phone {
+background: url(images/phone.png) 0 2px no-repeat;
+}
+
+info-address {
+background: url(images/streamline.png) 0 5px no-repeat;
+}
+
+.info-email {
+background: url(images/email.png) 0 5px no-repeat;
+}
+
+.info-website {
+background: url(images/computer.png) 0 4px no-repeat;
+}
+
+.one_third {
+	float:right;
+	clear: left;}
+
+
+section.section.section-banner.onetone-.video-section {
+margin-top: 5.5pc;
+}
+
+.section-banner h1 { font-family:WYekan;}
+
+.section-about h3 { font-family:WYekan;}
+
+.section h3 { font-family:WYekan;}
+.contact-form input, .contact-form textarea { font-family:WYekan;}
+
+
+h6 { font-family:WYekan;}
+
+
+.one_third {
+	width:31%}
+
+.fa {
+	font-size:4.5pc}
+
+img {
+	-webkit-filter: grayscale(100%);
+	transition:all 0.2s}
+
+img:hover {
+-webkit-filter: grayscale(0%);;
+transition:all 0.2s;
+-webkit-transform: scale(1.2)
+}
+
+
+
+section.section.section-Services.onetone-section-Services {
+background-attachment: fixed !important;
+background-size: contain !important;
+}
+
+
+section.section.section-about.onetone-section-about {
+background-attachment: fixed !important;
+background-size: contain !important;
+}
+
+
+
+
+
+
+section.section.section-Gallery.onetone-section-Gallery {
+background-attachment: fixed !important;
+background-size: contain !important;
+}
+
+
+section.section.section-Contact.onetone-section-Contact {
+background-attachment: fixed !important;
+background-size: contain !important;
+}
+ 
+
+
+section.section.section-Custom.onetone-section-Custom {
+background-attachment: fixed !important;
+background-size: contain !important;
+}
+
+.banner-box {
+line-height: 3;
+}
+
+
+#video-controls {
+text-align: center;
+}
+
+.home-navigation li {
+float: right !important;
+}
+
+
+section.section.section-banner.onetone-section-banner.video-section {
+margin-top: 6.3em !important;
+}
+
+
+.section-banner h1 {
+margin-right: 2.5em !important;
+}
+
+input#name {
+font-size: 18px;
+width: 100%;
+background-color: transparent;
+border: 1px solid #666;
+padding: 5px;
+overflow: hidden;
+margin-bottom: 30px;
+}
+
+
+
